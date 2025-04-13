@@ -25,7 +25,7 @@ Am creat acest site pentru a sprijini comunitatea noastră să reflecte profund 
 Clonează proiectul:
 
 ```bash
-git clone <url-repo>
+git clone https://github.com/unu-unu-ro/saptamanap.git
 ```
 
 Deschide fișierul `index.html` în browser-ul preferat.
