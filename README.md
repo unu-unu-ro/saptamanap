@@ -4,6 +4,10 @@ O pagină web simplă și elegantă care prezintă evenimentele biblice din Săp
 
 Acest site conține o selecție organizată de texte biblice pentru fiecare zi din Săptămâna Patimilor, perioada dintre Duminica Floriilor și Duminica Învierii. Scopul site-ului este să ofere un ghid spiritual simplu și accesibil pentru credincioșii care doresc să se pregătească sufletește în timpul acestei săptămâni speciale din an.
 
+## 🔗 Accesează site-ul 
+
+👉 [Vezi site-ul online](https://unu-unu-ro.github.io/saptamanap)
+
 ### De ce acest site?
 
 Am creat acest site pentru a sprijini comunitatea noastră să reflecte profund și ordonat asupra evenimentelor din viața lui Isus Hristos din ultima Sa săptămână pământească. Dorim să facilităm accesul rapid la resurse spirituale, care să inspire și să întărească relația personală cu Dumnezeu în această perioadă importantă.
