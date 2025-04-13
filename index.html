@@ -13,17 +13,27 @@
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         background-color: #fdfcf9;
         padding-top: 60px;
+        font-size: 16px;
+        line-height: 1.6;
       }
       .day-section {
-        padding: 50px 0;
+        padding: 30px 15px;
         border-bottom: 1px solid #eee;
+        border-radius: 10px;
+        background-color: #f8f9fa;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
       }
       h2 {
         text-align: center;
-        border-bottom: 2px solid #dee2e6;
+        border-bottom: 3px solid #adb5bd;
         padding-bottom: 10px;
         margin-bottom: 30px;
         color: #495057;
+        background-color: #e9ecef;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       }
       nav {
         background-color: #343a40;
@@ -32,7 +42,7 @@
         color: #ffffff !important;
       }
       .day-section img {
-        max-width: 75%;
+        max-width: 100%;
         height: auto;
         display: block;
         margin: 0 auto;
@@ -64,47 +74,58 @@
         max-width: 75%;
         margin: 20px auto;
       }
-      .day-section {
-        padding: 50px 0;
-        border-radius: 10px;
-        background-color: #f8f9fa;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        margin-bottom: 30px;
-      }
-
       .day-section ul li {
         margin-bottom: 10px;
         list-style-type: disc;
         list-style-position: inside;
       }
-
       .day-section ul li::marker {
         color: #6c757d;
       }
-
       .day-section img:hover {
         transform: scale(1.05);
         transition: transform 0.3s ease;
       }
-
+      .navbar-brand {
+        font-size: 1.5rem;
+      }
+      .navbar-toggler {
+        padding: 0.5rem;
+      }
       footer {
         background-color: #343a40 !important;
         color: #ffffff;
-        padding: 20px 0;
+        padding: 15px;
+        text-align: center;
       }
-
       footer a {
         color: #ffffff;
         text-decoration: none;
       }
-
       footer a:hover {
         text-decoration: underline;
       }
-
+      footer img {
+        width: 32px;
+        height: 32px;
+      }
       .navbar-nav .nav-link.active {
         font-weight: bold;
         color: #ffc107 !important;
+      }
+      @media (max-width: 768px) {
+        h2 {
+          font-size: 1.25rem;
+        }
+        .day-section ul {
+          padding-left: 20px;
+        }
+        .navbar-nav {
+          text-align: center;
+        }
+        .navbar-nav .nav-link {
+          padding: 0.5rem;
+        }
       }
     </style>
     <link
