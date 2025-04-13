@@ -116,3 +116,10 @@ footer img {
     padding: 0.5rem;
   }
 }
+.image-reference {
+  font-size: 0.8rem;
+  color: #6c757d;
+  text-align: center;
+  margin-top: 5px;
+  font-style: italic;
+}
