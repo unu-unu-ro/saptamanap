@@ -1,9 +1,12 @@
 document.querySelectorAll("a.nav-link").forEach((link) => {
   link.addEventListener("click", function (e) {
     e.preventDefault();
-    document.querySelector(this.getAttribute("href")).scrollIntoView({
+    const targetId = this.getAttribute("href");
+    document.querySelector(targetId).scrollIntoView({
       behavior: "smooth",
     });
+    // Update URL hash without scrolling
+    history.pushState(null, null, targetId);
   });
 });
 
