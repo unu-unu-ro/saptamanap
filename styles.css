@@ -6,6 +6,7 @@ body {
   line-height: 1.6;
 }
 .day-section {
+  scroll-margin-top: 65px;
   padding: 30px 15px;
   border-bottom: 1px solid #eee;
   border-radius: 10px;
